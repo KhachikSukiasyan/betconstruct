@@ -8,5 +8,9 @@ namespace ClassLibrary
 {
     public class Test
     {
+        public void PrintHello()
+        {
+            Console.WriteLine("Hello World!");
+        }
     }
 }
