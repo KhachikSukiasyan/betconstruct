@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ClassLibrary;
+﻿using ClassLibrary;
+using System;
+using System.Diagnostics;
 
 namespace ConsoleApplication
 {
@@ -13,7 +10,23 @@ namespace ConsoleApplication
         {
             var test = new Test();
 
+            var sw = new Stopwatch();
+
+            var temp = string.Empty;
+
             test.PrintHello();
+
+            sw.Start();
+
+            var x = int.Parse(Console.ReadLine());
+
+            sw.Stop();
+
+            Debug.WriteLine(sw.ElapsedMilliseconds);
+
+            Debug.WriteLine(x);
+
+            Console.WriteLine(x);
         }
     }
 }
