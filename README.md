@@ -1,2 +1,2 @@
 # betconstruct
-BetConstruct Internship
+BetConstruct Internship Training
