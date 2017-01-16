@@ -26,8 +26,20 @@ namespace Indexer
             var example = new Example(new int[] { 1, 2, 3 });
             Console.WriteLine(example[0]);
             //example[0] = 8;
+
+            var list = new List<int>();
+            list.Add(10);
+            list[0] = 2;
+            list.RemoveAt(0);
+
+            var dict = new Dictionary<string, int>();
+            dict["a"] = 57;
+
         }
+
     }
+
+
 
     public class Example
     {
