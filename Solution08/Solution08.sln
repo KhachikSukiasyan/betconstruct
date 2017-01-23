@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "Conso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{23665A82-E619-47DD-B43B-6CD726294C72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressions", "LambdaExpressions\LambdaExpressions.csproj", "{A9C4B33A-494F-4C96-AD6E-7D4A5C3343E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{23665A82-E619-47DD-B43B-6CD726294C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23665A82-E619-47DD-B43B-6CD726294C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23665A82-E619-47DD-B43B-6CD726294C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C4B33A-494F-4C96-AD6E-7D4A5C3343E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C4B33A-494F-4C96-AD6E-7D4A5C3343E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C4B33A-494F-4C96-AD6E-7D4A5C3343E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C4B33A-494F-4C96-AD6E-7D4A5C3343E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

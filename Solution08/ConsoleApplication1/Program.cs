@@ -29,7 +29,40 @@ namespace ConsoleApplication1
             var y1 = CalculateValues(arguments, f1);
             var y2 = CalculateValues(arguments, f2);
 
-            
+            Action action = delegate () { Console.WriteLine("Action"); };
+            Action action1 = delegate () { Console.WriteLine("Action1"); };
+            Action action2 = delegate () { Console.WriteLine("Action2"); };
+
+            Action anotherAction = action + action1 + action2;
+
+            action += action1 + action1;
+            action -= action1;
+            action += action2;
+
+
+            Console.WriteLine(new string('-', 10));
+            action();
+            Console.WriteLine(new string('-', 10));
+            anotherAction();
+
+            Action myAction = action + action1 + action2;
+
+            Console.WriteLine(new string('-', 10));
+            action();
+            Console.WriteLine(new string('-', 10));
+            myAction();
+
+            Console.WriteLine(new string('-', 10));
+        }
+
+        static void Process(Action action)
+        {
+            //if(action != null)
+            //{
+            //    action();
+            //}
+
+            action?.Invoke();
         }
 
         //static double[] CalculateValues(double[] arduments, Func<double, double> f)
