@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{43FF840B-6AD7-418C-8929-95312F843CEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{5624F980-D007-4D38-BC3C-2CD8103CE919}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDisposable", "IDisposable\IDisposable.csproj", "{A36CE7F7-F8C5-42C4-84E1-3635CA39693B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{43FF840B-6AD7-418C-8929-95312F843CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43FF840B-6AD7-418C-8929-95312F843CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43FF840B-6AD7-418C-8929-95312F843CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5624F980-D007-4D38-BC3C-2CD8103CE919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5624F980-D007-4D38-BC3C-2CD8103CE919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5624F980-D007-4D38-BC3C-2CD8103CE919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5624F980-D007-4D38-BC3C-2CD8103CE919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36CE7F7-F8C5-42C4-84E1-3635CA39693B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36CE7F7-F8C5-42C4-84E1-3635CA39693B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36CE7F7-F8C5-42C4-84E1-3635CA39693B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36CE7F7-F8C5-42C4-84E1-3635CA39693B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
