@@ -4,12 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Security.Cryptography;
+using System.IO;
 
 namespace IDisposable
 {
     class Program
     {
         static void Main(string[] args)
+        {
+            //IDisposableExample();
+
+            var obj1 = new MyClass($"Object 1");
+            Console.WriteLine("-----------");
+            obj1 = new MyClass($"Object 2");
+
+            var desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            var path = Path.Combine(desktop, "file.html");
+
+            var hd = new HtmlDownloader(path);
+            hd.Save("http://mic.am");
+        }
+
+        private static void IDisposableExample()
         {
             Console.OutputEncoding = Encoding.UTF8;
 
@@ -50,7 +66,7 @@ namespace IDisposable
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);    
+                    Console.WriteLine(ex.Message);
                 }
             }
         }
